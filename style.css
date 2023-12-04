@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif ;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    cursor: default;
+}
+body{
+    background-color: #161B40;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    min-width: 100px;
+    max-width: 400px;
+    /* height: 480px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    background-color: rgb(228, 228, 228);
+    overflow: hidden;
+}
+.container h2{
+    color: #161B40 ;
+    margin: 0 0 10px 0;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #43BEE5;
+    border-radius: 24px 24px 0 0;
+}
+
+.container form {
+    padding: 30px 20px 25px 20px;
+    width: 100%;
+}
+
+.container form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.container form .row input{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #43BEE570;
+    outline: none;
+    padding-left: 60px;
+    cursor: auto;
+    background-color: rgb(228, 228, 228);
+}
+.container form .row input:focus{
+    border-color: #43BEE5;
+    box-shadow: inset 0px 0px 2px 2px #43BEE570;
+}
+.container form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #161B40;
+    border-radius: 10px 0 0 10px;
+    background-color: #43BEE5;
+}
+.container form .button input{
+    padding: 0px;
+    color: #161B40 ;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #43BEE5;
+    cursor: pointer;
+}
+.container form .button input:hover{
+    background-color: #161B40;
+    color: #43BEE5;
+    transition: all 0.3s ease-in-out;
+}
+.container .link{
+    margin: -10px 0 20px 0;
+}
+.container .link a{
+    text-decoration: none;
+    color: #161B40;
+}
+.container .link a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container form .signup{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.container form .signup span{
+    color: grey;
+    font-size: 16px;
+}
